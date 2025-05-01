@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -110,6 +111,10 @@ public class WordPredictor {
         // On my computer the linear version causes the tests to take about 20seconds, and the log
         // version runs in less than two. Your results may vary.
         // Hint: The Random class has an instance method "nextDouble" that returns a value in the range [0., 1.]
+
+        // Using rng class get a threshold 0-1.0
+        // Using binary search get value thats 
+        double threshold = rng.nextDouble();
         return null;
     }
 }
